@@ -1,3 +1,9 @@
+# BERT checkpoint files
+results/
+tmp_trainer/
+bert-emotion-classifier*/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
