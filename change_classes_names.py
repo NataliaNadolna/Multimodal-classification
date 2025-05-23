@@ -1,22 +1,20 @@
 
 
-negative = {
-    "boisterous", "rowdy", "agressive", "tense - anxious", "volatile",
-    "visceral", "fiery", "intense"
-}
+negative = [
+    "boisterous", "rowdy", "agressive", "tense - anxious",
+    "volatile", "visceral", "fiery", "intense"
+]
 
-positive = {
-    "amiable-good natured", "cheerful", "sweet", "rousing", "rollicking",
-    "confident", "passionate", "literate"
-}
+positive = [
+    "amiable-good natured", "cheerful", "rousing", "rollicking",
+    "confident", "passionate", "campy", "humorous", "silly",
+    "whimsical", "witty", "wry", "fun"
+]
 
-nostalgic = {
-    "autumnal", "bittersweet", "brooding", "poignant", "wistful"
-}
-
-funny = {
-    "campy", "humorous", "silly", "whimsical", "witty", "wry", "fun"
-}
+nostalgic = [
+    "autumnal", "bittersweet", "brooding", "poignant", "wistful",
+    "sweet", "literate"
+] 
 
 # Mapowanie
 def map_class(label):
@@ -27,8 +25,6 @@ def map_class(label):
         return "positive"
     elif label in nostalgic:
         return "nostalgic"
-    elif label in funny:
-        return "funny"
     else:
         return "unknown"
 
