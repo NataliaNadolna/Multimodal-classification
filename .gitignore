@@ -3,6 +3,8 @@ results/
 tmp_trainer/
 bert-emotion-classifier*/
 
+# earlu fusion
+early_fusion/*.pth
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
